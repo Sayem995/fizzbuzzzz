@@ -19,6 +19,10 @@ describe('FizzBuzz', function () {
         it('buzzes for 5', function(){
             expect(fizzBuzz.play(5)).toEqual('Buzz');
         });
+
+        it('buzzes for 10', function(){
+            expect(fizzBuzz.play(10)).toEqual('Buzz');
+        });
     })
 
 
