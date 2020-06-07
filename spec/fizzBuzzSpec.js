@@ -7,7 +7,7 @@ describe('FizzBuzz', function () {
 
     describe('multiples of 3', function(){
         it('fizzes for 3', function(){
-            expect(fizzbuzz.play(3)).toEqual('Fizz');
+            expect(fizzBuzz.play(3)).toEqual('Fizz');
         });
 
         it('fizzes for 6', function() {
